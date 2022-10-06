@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skodio/static/css/main.aea9bc09.css",
+    "main.js": "/skodio/static/js/main.edc1162d.js",
+    "static/js/787.4a0bcb0c.chunk.js": "/skodio/static/js/787.4a0bcb0c.chunk.js",
+    "index.html": "/skodio/index.html",
+    "main.aea9bc09.css.map": "/skodio/static/css/main.aea9bc09.css.map",
+    "main.edc1162d.js.map": "/skodio/static/js/main.edc1162d.js.map",
+    "787.4a0bcb0c.chunk.js.map": "/skodio/static/js/787.4a0bcb0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aea9bc09.css",
+    "static/js/main.edc1162d.js"
+  ]
+}
