@@ -1,0 +1,25 @@
+.MenuWrapper{
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom:10px
+
+}
+.workWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1px;
+    height: 65px;
+    /* height:100vh; */
+
+}
+.rightLeftBtn{
+
+}
+.menuTitle{
+
+}
+.title{}
+.menuItemWrapper{
+    height:35px;
+}

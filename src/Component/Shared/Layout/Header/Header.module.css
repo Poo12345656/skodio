@@ -1,0 +1,19 @@
+.headerWrapper{    display: flex;
+    background-color: #3d3d3d;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerWrapperIcon{display: flex;
+    flex-wrap: wrap;
+}
+.headerIcon{
+    padding: 13px;
+
+}
+.headerHeading{
+    color: #fff;
+    font-weight: 600;
+    padding: 0 26px;
+}

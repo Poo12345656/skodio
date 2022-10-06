@@ -1,0 +1,10 @@
+.mainContainer{
+    display:flex;
+}
+.container{
+    margin: 15px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 100%;
+    padding: 10px;
+    background: #8080801a;
+}

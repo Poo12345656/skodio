@@ -1,0 +1,9 @@
+.sideNavBarWrapper{
+        
+        background: #f7f7f7;
+        flex-direction: column;
+      
+        height: 100vh;
+        padding: 0 20px;
+        width: fit-content;
+}
