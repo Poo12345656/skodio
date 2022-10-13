@@ -1,0 +1,22 @@
+.NavigationTabBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+      font-size: 15px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  .NavigationText {
+    padding: 10px;
+  }
+  .NavigationText:active{
+      background-color: #f6f6f6;
+      
+      border-radius: 6px;
+  
+  }
+  .navBarList{
+    text-decoration: none;
+    color: gray;
+}

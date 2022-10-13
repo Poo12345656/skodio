@@ -9,6 +9,7 @@ function Button({
   variant,
   text,
   textDecoration,
+  disabled = false ,
   as: Component = "button",
   children,
   ...rest
@@ -17,6 +18,7 @@ function Button({
     [style[color]]: !!color,
     [style[size]]: !!size,
     [style[variant]]: !!variant,
+    [style.disabled]:disabled
   });
   return (
     <Component className={buttonClasses} {...rest}>

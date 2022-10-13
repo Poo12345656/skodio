@@ -1,0 +1,45 @@
+.listWrapper{
+    background:red;
+
+}
+.listOrderList{
+    list-style-type:none;
+    list-style-type: none;
+    padding: 4px 8px;
+    letter-spacing: 0.1px;
+    margin: 0;
+
+}
+
+.listWrapper{
+    position: absolute;
+    right: 98px;
+    top: 52px;
+    background: white;
+    font-size: 13px;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    
+    padding: 11px 0;
+    width: 7%;
+    border-radius: 2%;
+    box-shadow: 0 2px 3px 0 rgb(37 43 49 / 28%);
+}
+.listMenu{
+    padding: 7px 0;
+    font-size: 14px;
+    font-family: "inter-regular";
+    cursor: pointer;
+
+}
+.dropDownList{
+    text-decoration: none;
+    color: black;
+
+}
+.listMenu:hover{
+    background-color: #f5fdff;
+    border-radius: 4px;
+}
+

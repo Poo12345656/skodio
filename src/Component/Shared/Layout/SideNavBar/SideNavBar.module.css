@@ -6,4 +6,7 @@
         height: 100vh;
         padding: 0 20px;
         width: fit-content;
+        transition: all 0.25s;
+    -webkit-transition: all 0.25s;
 }
+

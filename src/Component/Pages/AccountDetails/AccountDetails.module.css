@@ -1,0 +1,26 @@
+.AccountDetailsWrapper{
+    margin: 0 auto;
+    max-width: 420px;
+}
+.password{
+
+}
+.detailsInputWrapper{
+    margin:0;
+    border-radius: 5px;
+    border: solid 1px #ced3d8;
+    background-color: #fffefe;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: 0;
+
+}
+.cnfPassword{
+    margin-top:20px;
+}
+.signUpButton{
+    display: flex;
+    justify-content: center;
+}

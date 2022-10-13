@@ -1,0 +1,80 @@
+.mainWrapper {
+  margin: 0 auto;
+  max-width: 420px;
+  height: 100vh;
+}
+.profileWrapper {
+}
+
+
+.fromGroup {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.fromFieldWrapper {
+  margin-right: 10px;
+  height:100px
+}
+.fromGroupInput {
+  padding: 10px;
+  font-size: 14px;
+  outline: 0;
+
+  border-radius: 5px;
+  border: solid 1px #ced3d8;
+  background-color: #fffefe;
+  margin-top:9px;
+}
+.textAreaFiled {
+  margin-top: 15px;
+}
+.textAreaWrapper {
+  border-radius: 5px;
+  border: solid 1px #ced3d8;
+  background-color: #fffefe;
+  outline: 0;
+  width: 100%;
+  margin-top: 7px;
+  height: 143px;
+}
+.detailText {
+  margin-top: 15px;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+.userImageWrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+.profileImageWrapper{
+    width: 120px;
+    height: 120px;
+}
+.imagUpperWrapper{
+    background-color: rgba(87, 182, 221, 0.75);
+    position: absolute;
+    left: 145px;
+    top: -5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imgTextWrapper{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 52px;
+    color: white;
+    cursor:pointer;
+
+}
+
+

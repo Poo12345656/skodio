@@ -1,0 +1,59 @@
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.sidebarButton {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+.sidebar {
+  min-width: 250px;
+  background: darkslategrey;
+  padding: 20px;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.sidebar-closed {
+  min-width: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  color: gray;
+}
+
+.sidebarListItem {
+  margin: 30px 10px;
+  display: flex;
+  height: 20px;
+}
+
+.sidebarListItem span {
+  white-space: nowrap;
+}
+
+.sidebarIcon {
+  margin: 0 15px 0 0;
+}

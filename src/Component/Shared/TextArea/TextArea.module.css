@@ -1,0 +1,17 @@
+
+.textAreaFieldWrapper{
+    border-radius: 5px;
+    border: solid 1px #ced3d8;
+    background-color: #fffefe;
+    outline: 0;
+    width: 100%;
+    margin-top: 7px;
+    height: 68px;
+}
+
+
+
+.error {
+
+    border:1px solid red;
+}

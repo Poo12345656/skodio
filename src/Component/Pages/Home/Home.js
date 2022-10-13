@@ -1,12 +1,13 @@
-import React from 'react'
-import Layout from '../../Shared/Layout'
-import style from "./Home.module.css"
+import React from "react";
+import Layout from "../../Shared/Layout";
+import style from "./Home.module.css";
 
 function Home() {
   return (
-    <div><Layout><div className={style.container}>heloo</div></Layout>
-    </div>
-  )
+    <Layout>
+      <div className={style.container}> Welcome in hello</div>
+    </Layout>
+  );
 }
 
-export default Home
+export default Home;

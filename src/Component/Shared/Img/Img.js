@@ -1,9 +1,9 @@
 import React from 'react'
 import style from "./Img.module.css"
 
-function Img({src,alt}) {
+function Img({src,alt,...rest}) {
     return (
-      <div><img className={ style.Img} src={src} alt={alt}/></div>
+      <div><img className={ style.img} src={src} alt={alt} {...rest}/></div>
     )
   }
   

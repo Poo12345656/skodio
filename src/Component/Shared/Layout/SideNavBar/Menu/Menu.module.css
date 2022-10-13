@@ -1,25 +1,40 @@
-.MenuWrapper{
-    border-bottom: 1px solid #e4e4e4;
-    padding-bottom:10px
+.MenuWrapper {
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 10px;
+}
+.workWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 1px;
+  height: 65px;
+  display: flex;
+}
+.menuItemWrapper:hover{
+    background-color: #f5fdff;
+    border-radius: 4px;
+    color: black;
+}
+.sideNavList {
+  text-decoration: none;
+  display: flex;
+}
+.sideNavList:hover {
+    color: black;
 
 }
-.workWrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 1px;
-    height: 65px;
-    /* height:100vh; */
 
+.iconBtn {
+  size: 15px;
+  color: #808080;
 }
-.rightLeftBtn{
+.iconBtn:hover {
+  color: #28b8e1;
+}
 
+.menuItemWrapper {
+  height: 35px;
+  display: flex;
 }
-.menuTitle{
 
-}
-.title{}
-.menuItemWrapper{
-    height:35px;
-}

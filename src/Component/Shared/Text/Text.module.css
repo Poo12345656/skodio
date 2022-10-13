@@ -1,37 +1,51 @@
-.testWrapper{
-    text-transform: capitalize;
-   
+.testWrapper {
+  text-transform: capitalize;
 }
-.white{
-    color: #fff;
-    font-weight: 600;
-    padding:10px;
+.white {
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
 }
-.gray{
-    color:#999;
+.gray {
+  color: #999;
 }
-.xl
-{
-    font-size: 20px;
+.small{ 
+  font-size:13px;
 }
-.xxl
-{
-    font-size: 30px;
+.xl {
+  font-size: 20px;
 }
-.xxxl
-{
-    font-size: 60px;
-    font-weight: 600;
+.xxl {
+  font-size: 30px;
+}
+.xxxl {
+  font-size: 60px;
+  font-weight: 600;
+}
+/* .black {
+  color: #222222;
+  font-weight: 700;
+  font-family: "inter-bold";
+  letter-spacing: 0.11px;
+} */
+.lightGray {
+  padding-left: 8px;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.11px;
+  color: #52595d;
+  font-family: "inter-semiBold";
+}
+.lightGray:hover{
+  color: #28b8e1;
 }
 .black{
-    color: #222222;
-    font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  font-family: "inter-regular";
 }
-.lightGray{
-    padding-left: 8px;
-    font-size: 16px;
-    line-height: 1;
-    letter-spacing: 0.11px;
-    color: #52595d;
+.red{
+  color: red;
+  letter-spacing: 0.2px;
+  font-family: "inter-regular"
 }
-

@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'classnames';
 import style from "./Text.module.css"
 
-function Text({test,color= "black", as: Tag = "p",children,size="xl", ...rest}) {
+function Text({test,color= "black", as: Tag = "p",children,size, ...rest}) {
     
     const testClasses = classNames(style.testWrapper, {
       [style[color]]: !!color,
